@@ -211,9 +211,6 @@ function showToast(message, bgColor = 'primary') {
 }
 
 
-
-
-
 searchInput.addEventListener('input', () => {
   const term = searchInput.value.toLowerCase();
   const filtered = countries.filter(c =>

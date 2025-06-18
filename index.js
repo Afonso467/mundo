@@ -1,5 +1,5 @@
 const PAGE_SIZE = 10;
-const API_COUNTRIES = 'https://restcountries.com/v3.1/all';
+const API_COUNTRIES = 'https://restcountries.com/v3.1/all?fields=name,capital,region,subregion,population,area,flags,languages';
 
 const countriesContainer = document.getElementById('countries-container');
 const countryDetails = document.getElementById('country-details');
